@@ -1,6 +1,6 @@
-import 'package:fluro_annotation_generator/src/helper/import_helper.dart';
-import 'package:fluro_annotation_generator/src/template/route_template.dart';
-import 'package:fluro_annotation_generator/src/utils/cache_utils.dart';
+import 'package:fluro_annotation_generator_fork/src/helper/import_helper.dart';
+import 'package:fluro_annotation_generator_fork/src/template/route_template.dart';
+import 'package:fluro_annotation_generator_fork/src/utils/cache_utils.dart';
 
 abstract class TemplateUtils {
   static String buildFromCacheList(List<String> caches) {

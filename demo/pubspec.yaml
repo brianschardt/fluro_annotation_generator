@@ -28,8 +28,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  fluro_annotation_generator:
-    path: ../../fluro_annotation_generator/fluro_annotation_generator
+  fluro_annotation_generator_fork:
+    path: ../../fluro_annotation_generator_fork/fluro_annotation_generator_fork
   build_runner: any
 
 

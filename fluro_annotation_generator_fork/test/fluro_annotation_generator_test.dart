@@ -1,4 +1,4 @@
-import 'package:fluro_annotation_generator/src/utils/cache_utils.dart';
+import 'package:fluro_annotation_generator_fork/src/utils/cache_utils.dart';
 
 String code = """
 int a = 1;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluro_annotation_generator/src/annotation/f_route.dart';
+import 'package:fluro_annotation_generator_fork/src/annotation/f_route.dart';
 
 @FRoute("/")
 class Page1 extends StatelessWidget {

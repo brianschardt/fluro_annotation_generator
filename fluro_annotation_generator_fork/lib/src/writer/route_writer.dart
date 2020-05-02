@@ -1,7 +1,7 @@
 import 'package:analyzer/dart/element/element.dart';
 import 'package:build/build.dart';
-import 'package:fluro_annotation_generator/src/annotation/base_annotation.dart';
-import 'package:fluro_annotation_generator/src/utils/template_utils.dart';
+import 'package:fluro_annotation_generator_fork/src/annotation/base_annotation.dart';
+import 'package:fluro_annotation_generator_fork/src/utils/template_utils.dart';
 import 'package:glob/glob.dart';
 import 'package:source_gen/source_gen.dart';
 

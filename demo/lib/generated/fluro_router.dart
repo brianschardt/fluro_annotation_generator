@@ -1,4 +1,4 @@
-import 'package:fluro/fluro.dart';
+import 'package:fluro_fork/fluro_fork.dart';
 
 import '../src/page1.dart';
 import '../src/page2.dart';

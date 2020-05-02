@@ -1,7 +1,7 @@
 import 'package:demo/src/page2.dart';
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:fluro_annotation_generator/fluro_annotation_generator.dart';
+import 'package:fluro_annotation_generator_fork/fluro_annotation_generator_fork.dart';
 
 Widget handler(BuildContext _, Map<String, List<String>> para) => Page2();
 

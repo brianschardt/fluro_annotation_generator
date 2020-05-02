@@ -1,4 +1,4 @@
-import 'package:fluro/src/common.dart'
+import 'package:fluro_fork/src/common.dart'
     show HandlerType, HandlerFunc, TransitionType;
 
 import 'base_annotation.dart';

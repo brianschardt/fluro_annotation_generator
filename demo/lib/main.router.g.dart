@@ -4,7 +4,7 @@
 // Generator: RouteWriter
 // **************************************************************************
 
-import 'package:fluro/fluro.dart' as fluro;
+import 'package:fluro_fork/fluro_fork.dart' as fluro;
 import "package:demo/src/page1.dart" as id1;
 import "package:demo/src/page2.dart" as id2;
 import "package:demo/src/page3.dart" as id3;

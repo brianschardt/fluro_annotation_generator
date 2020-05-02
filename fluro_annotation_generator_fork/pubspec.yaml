@@ -1,10 +1,10 @@
-name: fluro_annotation_generator
+name: fluro_annotation_generator_fork
 description: >
-  Enable annotation support for fluro,
+  Enable annotation support for fluro fork,
   which automatically generate fluro routes for you.
-version: 0.3.0
-homepage: https://github.com/copydog/fluro_annotation_generator
-author: patrick.z <775150@qq.com>
+version: 0.0.1
+homepage: https://github.com/brianschardt/fluro_annotation_generator
+author: brian schardt <brian.ja.schardt@gmail.com
 
 environment:
   sdk: '>=2.4.0 <3.0.0'
@@ -17,8 +17,7 @@ dependencies:
   build: any
   source_gen: any
   build_config: any
-  fluro: any
-#  path: ^1.6.0
+  fluro_fork: ^0.0.1
 
 dev_dependencies:
   pedantic: ^1.7.0

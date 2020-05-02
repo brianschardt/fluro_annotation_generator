@@ -1,4 +1,4 @@
-import 'package:fluro_annotation_generator/src/annotation/base_annotation.dart';
+import 'package:fluro_annotation_generator_fork/src/annotation/base_annotation.dart';
 
 class EnableFluroRouter extends EnableFluroRouterBase {
   const EnableFluroRouter();
