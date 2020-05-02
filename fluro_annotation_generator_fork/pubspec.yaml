@@ -4,7 +4,6 @@ description: >
   which automatically generate fluro routes for you.
 version: 0.0.1
 homepage: https://github.com/brianschardt/fluro_annotation_generator
-author: brian schardt <brian.ja.schardt@gmail.com
 
 environment:
   sdk: '>=2.4.0 <3.0.0'
@@ -13,10 +12,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  analyzer: any
-  build: any
-  source_gen: any
-  build_config: any
+  analyzer: ^0.39.8
+  build: ^1.2.2
+  source_gen: ^0.9.5
+  build_config: ^0.4.2
+  glob: ^1.2.0
   fluro_fork: ^0.0.1
 
 dev_dependencies:
