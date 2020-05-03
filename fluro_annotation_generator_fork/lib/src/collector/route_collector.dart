@@ -54,11 +54,17 @@ class RouteCollector extends GeneratorForAnnotation<FRouteBase> {
     print("******** TESTING *******");
     print(handlerTypeValue);
     print('************************');
-    print(annotation.peek("handlerFunc")?.objectValue);
-    print(annotation.peek("handlerFunc")?.objectValue?.type);
-    print(annotation.peek("handlerFunc")?.objectValue?.type?.element);
+    print(annotation
+        .peek("handlerFunc")
+        ?.objectValue
+        ?.toFunctionValue()
+        .enclosingElement);
+    print(annotation
+        .peek("handlerFunc")
+        ?.objectValue
+        ?.toFunctionValue()
+        .getDisplayString(withNullability: true));
     print(annotation.peek("handlerFunc")?.objectValue?.toFunctionValue());
-    print(annotation.peek("handlerFunc")?.objectValue?.toTypeValue());
     print(handlerFuncName);
     print('************************');
     print("******** END TESTING *******");

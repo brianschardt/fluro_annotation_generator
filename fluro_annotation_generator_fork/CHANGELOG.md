@@ -1,3 +1,6 @@
+## 0.0.6
+- troubleshoot toFunctionValue
+
 ## 0.0.5
 - logging
 
