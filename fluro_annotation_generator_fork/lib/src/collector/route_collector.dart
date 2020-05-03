@@ -47,27 +47,14 @@ class RouteCollector extends GeneratorForAnnotation<FRouteBase> {
     final Uri handlerFuncUri = handlerFuncElement?.source?.uri == null
         ? null
         : assetToPackageUrl(handlerFuncElement?.source?.uri);
-    final String handlerFuncName = handlerFuncElement?.name;
+    String handlerFuncName = handlerFuncElement?.name;
+    if (handlerFuncElement?.enclosingElement?.name != null) {
+      handlerFuncName =
+          '${handlerFuncElement?.enclosingElement?.name}.${handlerFuncElement?.name}';
+    }
     // routes
     final String url = annotation.peek("url").stringValue;
 
-    print("******** TESTING *******");
-    print(handlerTypeValue);
-    print('************************');
-    print(annotation
-        .peek("handlerFunc")
-        ?.objectValue
-        ?.toFunctionValue()
-        .enclosingElement);
-    print(annotation
-        .peek("handlerFunc")
-        ?.objectValue
-        ?.toFunctionValue()
-        .getDisplayString(withNullability: true));
-    print(annotation.peek("handlerFunc")?.objectValue?.toFunctionValue());
-    print(handlerFuncName);
-    print('************************');
-    print("******** END TESTING *******");
     return CacheUtils.encode(
       path: path,
       handlerPath: handlerFuncUri?.toString(),

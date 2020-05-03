@@ -1,3 +1,15 @@
+## 1.0.0
+- Tested ready for production, fixed bug from previous library
+
+## 0.0.9
+- name update
+
+## 0.0.8
+- logging
+
+## 0.0.7
+- open
+
 ## 0.0.6
 - troubleshoot toFunctionValue
 
