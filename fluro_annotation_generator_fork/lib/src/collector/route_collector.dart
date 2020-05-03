@@ -42,7 +42,7 @@ class RouteCollector extends GeneratorForAnnotation<FRouteBase> {
 
     // handler function
     final Element handlerFuncElement =
-        annotation.peek("handlerFunc")?.objectValue?.type?.element;
+        annotation.peek("handlerFunc")?.objectValue?.toFunctionValue();
 
     final Uri handlerFuncUri = handlerFuncElement?.source?.uri == null
         ? null
@@ -54,13 +54,12 @@ class RouteCollector extends GeneratorForAnnotation<FRouteBase> {
     print("******** TESTING *******");
     print(handlerTypeValue);
     print('************************');
-    print(handlerFuncElement);
-    print('************************');
-    print(handlerFuncElement);
-    print('************************');
-    print(annotation.peek("handlerFunc"));
-    print('************************');
-
+    print(annotation.peek("handlerFunc")?.objectValue);
+    print(annotation.peek("handlerFunc")?.objectValue?.type);
+    print(annotation.peek("handlerFunc")?.objectValue?.type?.element);
+    print(annotation.peek("handlerFunc")?.objectValue?.toFunctionValue());
+    print(annotation.peek("handlerFunc")?.objectValue?.toTypeValue());
+    print(handlerFuncName);
     print('************************');
     print("******** END TESTING *******");
     return CacheUtils.encode(

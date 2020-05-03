@@ -1,3 +1,9 @@
+## 0.0.5
+- logging
+
+## 0.0.4
+- logging
+
 ## 0.0.3
 - Updated build options
 
